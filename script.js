@@ -49,4 +49,6 @@ function clearAllTasks() {
 
     table.innerHTML = "";
     updateTaskCounter();
+    
 }
+// Updated task management features
