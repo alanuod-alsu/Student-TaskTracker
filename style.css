@@ -73,3 +73,20 @@ th, td {
   border: none;
   cursor: pointer;
 }
+.task-counter {
+    text-align: center;
+    font-weight: bold;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.clear-btn {
+    background-color: #e67e22;
+}
+
+.clear-btn:hover {
+    background-color: #ca6f1e;
+}
