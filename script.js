@@ -29,6 +29,9 @@ function addTask() {
   document.getElementById("taskName").value = "";
   document.getElementById("priority").value = "";
   document.getElementById("status").value = "";
+
+}
+=======
   updateTaskCounter();
 }
 function updateTaskCounter() {
@@ -38,7 +41,6 @@ function updateTaskCounter() {
     document.getElementById("taskCounter").innerText =
         "Total Tasks: " + totalTasks;
 }
-
 function clearAllTasks() {
     let table = document.getElementById("taskTable");
 
@@ -49,6 +51,6 @@ function clearAllTasks() {
 
     table.innerHTML = "";
     updateTaskCounter();
-    
 }
+
 // Updated task management features
