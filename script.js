@@ -29,24 +29,4 @@ function addTask() {
   document.getElementById("taskName").value = "";
   document.getElementById("priority").value = "";
   document.getElementById("status").value = "";
-  updateTaskCounter();
-}
-function updateTaskCounter() {
-    let table = document.getElementById("taskTable");
-    let totalTasks = table.rows.length;
-
-    document.getElementById("taskCounter").innerText =
-        "Total Tasks: " + totalTasks;
-}
-
-function clearAllTasks() {
-    let table = document.getElementById("taskTable");
-
-    if (table.rows.length === 0) {
-        alert("No tasks to clear");
-        return;
-    }
-
-    table.innerHTML = "";
-    updateTaskCounter();
 }
