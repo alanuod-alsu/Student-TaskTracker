@@ -34,7 +34,7 @@ function addTask() {
 }
 
   updateTaskCounter();
-}
+
 function updateTaskCounter() {
     let table = document.getElementById("taskTable");
     let totalTasks = table.rows.length;
@@ -56,5 +56,5 @@ function clearAllTasks() {
 
 // Updated task management features
 
-}
+
 
