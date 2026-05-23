@@ -105,3 +105,26 @@ tr:hover {
 .clear-btn:hover {
     background-color: #dc2626;
 }
+
+@media (max-width: 768px) {
+
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+  .form-box { flex-direction: column;}
+
+  input, select, button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  table { font-size: 14px; }
+
+  th, td { padding: 10px; }
+
+  h1 { font-size: 26px; }
+
+  .subtitle { font-size: 14px; }
+  
+}

@@ -22,6 +22,7 @@ function addTask() {
 
   deleteButton.onclick = function() {
     table.deleteRow(row.rowIndex - 1);
+    updateTaskCounter();
   };
 
   actionCell.appendChild(deleteButton);
@@ -31,9 +32,8 @@ function addTask() {
   document.getElementById("status").value = "";
 
 
-}
 
-  updateTaskCounter();
+  updateTaskCounter(); }
 
 function updateTaskCounter() {
     let table = document.getElementById("taskTable");
